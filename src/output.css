@@ -821,6 +821,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -1901,6 +1905,10 @@ video {
 
   .sm\:ml-3 {
     margin-left: 0.75rem;
+  }
+
+  .sm\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .sm\:h-14 {
