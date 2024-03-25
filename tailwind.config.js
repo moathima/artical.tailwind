@@ -13,6 +13,7 @@ extend: {
        light: "#E7E7E7",
        soft: "#676879",
        dark: "#808080",
+       Neutral:"#FAFAFB",
      },
     black: {
        soft: "#121212"
@@ -22,8 +23,15 @@ extend: {
     },
     red: {
        soft: "#ED4D55"
-    }
+    },
+
+    green:{
+    soft:"#34B166"
+    },
+
   },
+
+  
   
 },
 
