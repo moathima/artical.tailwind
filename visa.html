@@ -110,9 +110,9 @@
 
 
 
-            <div class="h-screen flex flex-col justify-center">
+            <div class="lg:px-0  h-screen flex flex-col justify-center">
 
-                <div class="flex  flex-col text-white text-center lg:px-2">
+                <div class="flex  flex-col text-white text-center lg:px-2 ">
 
                     <h2 class=" text-3xl sm:text-5xl lg:text-7xl  font-semibold">Travel Visa Requirements
                     </h2>
@@ -121,19 +121,16 @@
                         Sometimes a journey of a thousand miles begins with a visa. Check your destination and apply
                         online for any visa in the world.</p>
 
-                    <div class="sm:flex rounded-full mt-14  sm:justify-center px-2 sm:p-0">
+                    <div class="lg:px-24 lg:mt-14 mt-14 sm:mt-12 sm:px-2 px-5">
 
                         <div
-                            class="sm:px-2  flex sm:flex-row lg:h-20 sm:h-16  items-center flex-col sm:bg-white bg-none sm:rounded-full">
-
+                            class="flex sm:flex-row flex-col items-center px-2 sm:bg-white sm:rounded-full sm:w-full lg:h-20 sm:h-14">
 
                             <div
-                                class="flex lg:gap-20 sm:gap-8 gap-48 sm:h-none h-11 items-center lg:bg-none bg-white rounded-full sm:rounded-none sm:p-0 px-3.5">
+                                class="flex sm:w-56 w-full sm:bg-none bg-white sm:rounded-none rounded-full justify-between sm:ml-8 sm:px-0 px-3.5 py-2">
 
-                                <div class="lg:w-32 lg:ml-8 sm:ml-4 w-24">
-                                    <input placeholder="For citizen of "
-                                        class="lg:text-xl sm:text-base text-sm font-normal text-gray-dark">
-                                </div>
+                                <input type="text" placeholder="For citizen of"
+                                    class="lg:text-xl sm:text-base text-sm text-gray-dark font-normal sm:w-32">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
@@ -141,29 +138,16 @@
                                         d="M4.24106 7.7459C4.53326 7.44784 4.99051 7.42074 5.31272 7.66461L5.40503 7.7459L12 14.4734L18.595 7.7459C18.8872 7.44784 19.3444 7.42074 19.6666 7.66461L19.7589 7.7459C20.0511 8.04396 20.0777 8.51037 19.8386 8.83904L19.7589 8.93321L12.582 16.2541C12.2898 16.5522 11.8325 16.5793 11.5103 16.3354L11.418 16.2541L4.24106 8.93321C3.91965 8.60534 3.91965 8.07376 4.24106 7.7459Z"
                                         fill="#808080" />
                                 </svg>
+
+
+
                             </div>
 
                             <div
-                                class="flex lg:gap-20 sm:gap-8 gap-52 lg:mx-20 sm:mx-9 sm:h-none h-11 items-center lg:bg-none bg-white rounded-full sm:rounded-none sm:p-0 px-3.5 sm:my-0 my-2">
-                                <div class="lg:w-28 w-20">
-                                    <input placeholder="Traveling to"
-                                        class="lg:text-xl sm:text-base text-sm  font-normal text-gray-dark">
-                                </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
-                                    <path
-                                        d="M4.24106 7.7459C4.53326 7.44784 4.99051 7.42074 5.31272 7.66461L5.40503 7.7459L12 14.4734L18.595 7.7459C18.8872 7.44784 19.3444 7.42074 19.6666 7.66461L19.7589 7.7459C20.0511 8.04396 20.0777 8.51037 19.8386 8.83904L19.7589 8.93321L12.582 16.2541C12.2898 16.5522 11.8325 16.5793 11.5103 16.3354L11.418 16.2541L4.24106 8.93321C3.91965 8.60534 3.91965 8.07376 4.24106 7.7459Z"
-                                        fill="#808080" />
-                                </svg>
-                            </div>
+                                class="flex sm:w-52  justify-between sm:my-0 my-2 lg:mx-20 sm:mx-10  w-full sm:bg-none bg-white sm:rounded-none rounded-full  sm:px-0 px-3.5 py-2 ">
 
-
-                            <div
-                                class="flex lg:gap-20 sm:gap-8 gap-56 sm:h-none h-11 items-center lg:bg-none bg-white rounded-full sm:rounded-none sm:p-0 px-3.5">
-                                <div class="lg: sm:w-14 w-16">
-                                    <input placeholder="Living in"
-                                        class="lg:text-xl sm:text-base text-sm  font-normal text-gray-dark">
-                                </div>
+                                <input type="text" placeholder="Traveling to"
+                                    class="lg:text-xl sm:text-base text-sm text-gray-dark font-normal sm:w-28">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
@@ -171,47 +155,53 @@
                                         d="M4.24106 7.7459C4.53326 7.44784 4.99051 7.42074 5.31272 7.66461L5.40503 7.7459L12 14.4734L18.595 7.7459C18.8872 7.44784 19.3444 7.42074 19.6666 7.66461L19.7589 7.7459C20.0511 8.04396 20.0777 8.51037 19.8386 8.83904L19.7589 8.93321L12.582 16.2541C12.2898 16.5522 11.8325 16.5793 11.5103 16.3354L11.418 16.2541L4.24106 8.93321C3.91965 8.60534 3.91965 8.07376 4.24106 7.7459Z"
                                         fill="#808080" />
                                 </svg>
+
+
+
                             </div>
+
+
 
 
 
                             <div
-                                class="flex rounded-full lg:ml-12 sm:ml-6 mt-2 h-11 sm:h-14 sm:p-0 mb-20 sm:m-0 w-full bg-red-soft justify-center">
-                                <button
-                                    class=" rounded-full lg:text-xl sm:text-base text-sm font-normal lg:py-4 lg:px-16 sm:py-3 sm:px-6 px-3.5 py-2">Check
-                                    requirements</button>
+                                class="flex sm:w-44 justify-between w-full sm:bg-none bg-white sm:rounded-none rounded-full  sm:px-0 px-3.5 py-2">
+
+                                <input type="text" placeholder="Living in"
+                                    class="lg:text-xl sm:text-base text-sm text-gray-dark font-normal sm:w-20">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M4.24106 7.7459C4.53326 7.44784 4.99051 7.42074 5.31272 7.66461L5.40503 7.7459L12 14.4734L18.595 7.7459C18.8872 7.44784 19.3444 7.42074 19.6666 7.66461L19.7589 7.7459C20.0511 8.04396 20.0777 8.51037 19.8386 8.83904L19.7589 8.93321L12.582 16.2541C12.2898 16.5522 11.8325 16.5793 11.5103 16.3354L11.418 16.2541L4.24106 8.93321C3.91965 8.60534 3.91965 8.07376 4.24106 7.7459Z"
+                                        fill="#808080" />
+                                </svg>
+
+
+
                             </div>
 
-
+                            <div
+                                class="bg-red-soft rounded-full mt-2 sm:m-0 lg:py-3.5 lg:px-10  lg:ml-12 sm:ml-6  lg:w-auto w-full sm:px-4 sm:py-3 px-3.5 py-2">
+                                <button class="lg:text-xl sm:text-base text-sm font-normal">Check requirements</button>
+                            </div>
 
 
 
 
                         </div>
+
                     </div>
-
-
 
                 </div>
 
 
 
-            </div>
+                <div
+                    class="flex  justify-between items-center  sm:gap-6 lg:gap-0  bg-gray-Neutral lg:h-36 sm:h-32 sm:mt-28 h-24">
 
-
-
-        </section>
-
-        <section>
-
-
-
-
-            <div class=" bg-gray-Neutral sm:h-auto h-24">
-
-                <div class="hidden sm:flex justify-between items-center sm:gap-6 lg:gap-0 h-36">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" width="187" height="60" viewBox="0 0 187 60" fill="none">
+                    <svg class="sm:block hidden" xmlns="http://www.w3.org/2000/svg" width="187" height="60"
+                        viewBox="0 0 187 60" fill="none">
                         <path
                             d="M45.2615 27.0734C45.2615 25.4009 43.589 23.6239 40.3486 23.9375C38.1534 24.1466 35.9583 25.2964 33.6587 26.3417L33.9723 24.8783L34.8085 20.9061C35.3311 18.5019 35.7493 17.6657 36.2719 17.6657C36.5855 17.6657 36.7946 17.8748 37.0036 18.2929C37.2127 18.711 37.5263 19.2337 38.258 19.2337C38.9897 19.2337 39.4078 18.6065 39.4078 17.7702C39.4078 16.7249 38.467 15.7842 37.3172 15.7842C34.5994 15.7842 32.5088 18.8155 31.2545 24.6692L30.6273 27.596C29.6865 28.1187 28.9548 28.3277 28.1186 28.3277C27.7005 28.3277 27.1778 28.2232 26.8642 28.1187C26.8642 27.9096 27.0733 27.387 27.0733 26.6553C27.0733 24.9828 26.1325 24.5647 25.4008 24.6692C24.5646 24.6692 23.4148 25.0873 23.4148 26.9689C23.4148 27.9096 24.0419 28.7459 25.0872 29.2685C24.9827 29.4776 24.9827 29.4776 24.9827 29.6866C24.1465 31.7772 20.2789 39.3033 19.7562 38.4671C17.143 34.8086 19.9653 25.7145 19.9653 25.7145C19.6517 25.61 17.4566 24.4601 15.0524 24.4601C12.4392 24.4601 11.1848 26.6553 10.9757 28.6413C10.8712 29.8957 11.2893 30.6274 12.1256 30.7319C12.8573 30.8364 13.4845 30.2093 13.589 29.2685C13.6935 28.5368 13.2754 28.1187 12.9618 27.9096C12.7528 27.7006 12.6482 27.596 12.6482 27.387C12.6482 26.9688 13.1709 26.5507 13.589 26.6553C13.6935 26.6553 13.798 26.7598 14.1116 26.7598C14.8433 26.9688 16.6203 27.7006 17.2475 26.9689C14.8433 31.9863 15.5751 40.5577 19.6517 40.1396C22.0559 39.826 24.4601 34.2859 26.6552 29.4776C26.6552 29.373 27.3869 29.8957 30.1047 29.6866C30.2092 29.6866 30.2092 29.6866 30.3137 29.6866L28.2231 39.4079C27.805 41.1849 27.2824 43.38 26.3416 43.38C26.028 43.38 25.819 43.0664 25.6099 42.6483C25.4008 42.2302 24.9827 41.603 24.251 41.603C23.5193 41.603 22.9967 42.2302 22.9967 43.0664C22.9967 44.4253 24.1465 45.157 25.2963 45.157C28.1186 45.157 30.2092 42.0211 31.5681 35.6448L32.927 29.0594C34.5994 28.5368 36.0629 27.4915 37.2127 26.8643C37.0036 27.387 36.8991 28.2232 36.8991 28.7459C36.8991 30.4183 37.8399 31.7772 38.7806 33.3452C39.5123 34.5995 40.244 35.7493 40.244 36.5856C40.244 37.4218 39.4078 38.1535 38.5716 38.1535C37.8399 38.1535 37.5263 37.5263 37.3172 36.8992C37.0036 36.272 36.69 35.5403 35.8538 35.5403C35.1221 35.5403 34.5994 36.272 34.5994 37.2128C34.5994 38.6762 35.9583 39.826 37.7353 39.826C40.3486 39.826 42.1256 37.9445 42.1256 35.3312C42.1256 33.3452 40.9757 31.6727 39.9304 30.1047C39.1987 29.0594 38.6761 28.1187 38.5716 27.387C38.5716 26.0281 40.5576 25.0873 41.6029 25.0873C42.021 25.0873 42.4392 25.1918 42.7527 25.2964C42.1256 25.61 41.812 26.1326 41.812 26.9689C41.812 28.0141 42.6482 28.4323 43.2754 28.4323C44.7388 28.7459 45.2615 27.9096 45.2615 27.0734Z"
                             fill="#ABABAB" />
@@ -249,7 +239,8 @@
                         <path d="M177.805 38.0487H186.272V36.1672H180V24.6689H177.805V38.0487Z" fill="#ABABAB" />
                     </svg>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="221" height="60" viewBox="0 0 221 60" fill="none">
+                    <svg class="sm:block hidden" xmlns="http://www.w3.org/2000/svg" width="221" height="60"
+                        viewBox="0 0 221 60" fill="none">
                         <path
                             d="M78.2873 20.4955C78.2873 18.1253 76.4051 16.1733 74.0349 16.1036C71.6646 16.1036 69.7127 17.9859 69.7127 20.3561C69.7127 22.7263 71.5949 24.6783 73.9652 24.748C76.3354 24.8177 78.2873 22.8658 78.2873 20.4955Z"
                             fill="#ABABAB" />
@@ -300,11 +291,12 @@
                             fill="#ABABAB" />
                     </svg>
 
-                    <img src="image/BLS 1.svg" alt="">
+                    <img class="sm:block hidden" src="image/BLS 1.svg" alt="">
 
-                    <img src="image/emblem-img 1.svg" alt="">
+                    <img class="sm:block hidden" src="image/emblem-img 1.svg" alt="">
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="132" height="60" viewBox="0 0 132 60" fill="none">
+                    <svg class="sm:block hidden" xmlns="http://www.w3.org/2000/svg" width="132" height="60"
+                        viewBox="0 0 132 60" fill="none">
                         <g clip-path="url(#clip0_1382_10291)">
                             <path d="M103.625 26.6627H109.363L106.494 19.7202L103.625 26.6627Z" fill="#ABABAB" />
                             <path
@@ -362,17 +354,20 @@
                         </defs>
                     </svg>
 
-                    <img src="image/pngaaa 1.svg" alt="">
+                    <img class="sm:block hidden" src="image/pngaaa 1.svg" alt="">
                 </div>
+
+
+
             </div>
 
 
 
         </section>
 
-        <section class="max-auto max-w-screen-xl lg:px-0 px-2">
+        <section class="max-auto  lg:px-0 px-2 lg:mt-28 mt-14 lg:pt-2">
 
-            <div class="flex flex-col items-center lg:mt-20 mt-14">
+            <div class="flex flex-col items-center ">
                 <h2 class="lg:text-5xl text-3xl text-black-soft font-semibold">Visa type</h2>
                 <div class=" flex sm:gap-6 my-6 gap-2">
                     <button
@@ -413,17 +408,17 @@
 
 
 
-                <div class="flex">
-                    <div
-                        class="lg:w-14 lg:h-14 sm:w-12 sm:h-12 w-10 h-10 rounded-full bg-gray-Neutral flex justify-center items-center border border-green-soft">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <div class="flex ">
+                    <div>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19" stroke="#65AC44" stroke-width="2" />
                             <path
-                                d="M11.9999 21.6L6.39987 16L4.5332 17.8667L11.9999 25.3333L27.9999 9.33334L26.1332 7.46667L11.9999 21.6Z"
-                                fill="#34B166" />
+                                d="M17 24.2001L12.8 20.0001L11.4 21.4001L17 27.0001L29 15.0001L27.6 13.6001L17 24.2001Z"
+                                fill="#65AC44" />
                         </svg>
                     </div>
 
-                    <div class="sm:ml-7 ml-4 w-5/6">
+                    <div class="sm:ml-7 ml-4">
                         <h5 class="lg:text-xl text-lg text-black-soft font-semibold">Fill your form </h5>
                         <p class="lg:text-lg text-base text-gray-dark font-normal mt-4">Receive important
                             infromation
@@ -434,20 +429,22 @@
                         </p>
                     </div>
 
-
-
                 </div>
 
-                <div class="flex sm:my-9 my-8">
-                    <div
-                        class="lg:w-14 lg:h-14 sm:w-12 sm:h-12  w-10 h-10 rounded-full bg-gray-Neutral flex justify-center items-center border border-green-soft">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+
+
+
+
+                <div class="flex lg:my-9 my-5">
+                    <div>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19" stroke="#65AC44" stroke-width="2" />
                             <path
-                                d="M11.9999 21.6L6.39987 16L4.5332 17.8667L11.9999 25.3333L27.9999 9.33334L26.1332 7.46667L11.9999 21.6Z"
-                                fill="#34B166" />
+                                d="M17 24.2001L12.8 20.0001L11.4 21.4001L17 27.0001L29 15.0001L27.6 13.6001L17 24.2001Z"
+                                fill="#65AC44" />
                         </svg>
                     </div>
-                    <div class="sm:ml-7 ml-4 w-5/6 lg:w-auto">
+                    <div class="sm:ml-7 ml-4">
                         <h5 class="lg:text-xl text-lg text-black-soft font-semibold">Submission successfuly </h5>
                         <p class="lg:text-lg text-base text-gray-dark font-normal mt-4">Help the US Embassy contact you
                             in an
@@ -457,12 +454,12 @@
                 </div>
 
                 <div class="flex">
-                    <div
-                        class="lg:w-14 lg:h-14 sm:w-12 sm:h-12 w-10 h-10 rounded-full bg-gray-Neutral flex justify-center items-center border border-green-soft">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <div>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19" stroke="#65AC44" stroke-width="2" />
                             <path
-                                d="M11.9999 21.6L6.39987 16L4.5332 17.8667L11.9999 25.3333L27.9999 9.33334L26.1332 7.46667L11.9999 21.6Z"
-                                fill="#34B166" />
+                                d="M17 24.2001L12.8 20.0001L11.4 21.4001L17 27.0001L29 15.0001L27.6 13.6001L17 24.2001Z"
+                                fill="#65AC44" />
                         </svg>
                     </div>
                     <div class="sm:ml-7 ml-4 sm:w-auto w-5/6">
@@ -493,7 +490,7 @@
 
         </section>
 
-        <section class="mx-auto max-w-screen-xl mt-6 px-2 lg:px-0">
+        <section class="mx-auto max-w-screen-xl mt-6 px-5 lg:px-0">
 
             <h5 class="lg:text-xl text-lg font-semibold text-black-soft">Additional documents required</h5>
             <p class="lg:text-xl sm:text-lg text-base font-normal sm:text-black-soft text-black sm:my-6 mt-4 mb-6">
@@ -539,14 +536,15 @@
 
             <h2 class="font-semibold lg:text-5xl text-3xl text-black-soft text-center">How it works</h2>
 
-            <div class="grid sm:grid-cols-3 grid-cols-1 lg:gap-32 sm:gap-16 gap-8 sm:mt-14 mt-8">
+            <div class="grid sm:grid-cols-3 grid-cols-1 lg:gap-32 sm:gap-16 gap-8 sm:mt-14 mt-8 sm:px-0 px-10">
 
 
 
                 <div class="flex flex-col items-center text-center">
                     <img src="image/card-visa.svg" alt="" class="sm:w-auto sm:h-auto  h-20">
                     <h5 class="text-black-soft lg:text-2xl sm:text-base text-lg font-medium mt-6">Apply Online</h5>
-                    <p class="text-gray-dark lg:text-lg text-sm font-normal sm:mt-4 mt-2">Secure online application
+                    <p class="text-gray-dark lg:text-lg text-sm font-normal sm:mt-4 mt-2">Secure online
+                        application
                         saves time and
                         checks
                         for errors</p>
