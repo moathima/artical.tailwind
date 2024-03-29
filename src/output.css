@@ -679,6 +679,14 @@ video {
   height: 83.333333%;
 }
 
+.h-4\/5 {
+  height: 80%;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
 .w-px {
   width: 1px;
 }
