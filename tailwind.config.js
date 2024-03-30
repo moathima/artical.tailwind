@@ -16,11 +16,13 @@ extend: {
        Neutral:"#FAFAFB",
        node:"#E0E1E2",
        basic:"#979797",
-       bono:"#F2F2F2"
+       bono:"#F2F2F2",
+       demo:"#ECEAEA",
      },
     black: {
        soft: "#121212",
-       dark:"#18202F"
+       dark:"#18202F",
+       Neutral:"#200E32",
     },
     pink: {
        soft: "#FF626A"
