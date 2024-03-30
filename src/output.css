@@ -611,6 +611,11 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -949,6 +954,16 @@ video {
     margin-bottom: 2.25rem;
   }
 
+  .sm\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .sm\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
   .sm\:mt-10 {
     margin-top: 2.5rem;
   }
@@ -959,6 +974,18 @@ video {
 
   .sm\:mt-9 {
     margin-top: 2.25rem;
+  }
+
+  .sm\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .sm\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .sm\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .sm\:items-center {
